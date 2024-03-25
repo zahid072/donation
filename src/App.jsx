@@ -1,14 +1,12 @@
-import { useState } from 'react'
-import './App.css'
-import { Button } from '@material-tailwind/react'
+import { RouterProvider } from "react-router-dom"
+import Router from "./Routes/Route"
+
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
-    <>
-      <Button>button </Button>
-    </>
+    <RouterProvider router={Router}/>
   )
 }
 
