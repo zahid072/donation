@@ -67,7 +67,7 @@ const Nav = () => {
           variant="h6"
           className="mr-4 cursor-pointer py-1.5 flex items-center gap-2"
         >
-          <img src="../src/assets/logo.png" alt="" />
+          <img src="https://i.ibb.co/5RKrymf/logo.png" alt="" />
          <div>
             <h1 className='text-3xl font-bold text-red-400'>Donation</h1>
             <h3>Campaign</h3>
